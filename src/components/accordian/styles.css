@@ -4,20 +4,38 @@
   width:  100vw;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 20px
+}
+
+.wrapper button {
+  padding: 10px 20px;
+  background-color: burlywood;
+  color: rgb(48, 34, 8);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.wrapper button:hover{
+  background-color: rgb(48, 34, 8);
+  color: burlywood;
 }
 
 .accordian {
-  width: 500px;
+  width: 50vw;
 }
 
 .item {
-  background-color: rgb(3, 42, 77);
+  background-color: rgb(48, 34, 8);
   margin-bottom: 10px;
   padding: 10px 20px;
+
+
 }
 
 .title{
-  color: aliceblue;
+  color: burlywood;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,6 +44,7 @@
 }
 
 .content{
-  color: aliceblue;
+  color: burlywood;
   height: auto;
+  word-wrap: break-word;
 }
